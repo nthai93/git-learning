@@ -16,3 +16,10 @@ git push -u origin master
 ### trường hợp thứ 2 ( đã có code rồi và đã kết nối với git repo rồi)
 1. [add vô commit]
 git add -A
+
+## Khi tham gia vô nhóm người khác cần clone source về
+git clone <github repository url>
+2. [cần thêm 1 commit]
+git commit -m "<commit message>'
+3. [đẩy code lên]
+git push
