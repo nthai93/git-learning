@@ -1,3 +1,18 @@
 [khởi tạo local repository]
 git init .
 
+[add vô commit]
+git add .
+
+[thêm commit message để chuẩn bị đẩy lên repository]
+git commit -m "<your message>"
+
+[kết nối giữa local repository và remote repository]
+git remote add origin <git remote repository url>
+[đẩy code từ local lên git remote]
+git push -u origin master
+
+
+### trường hợp thứ 2 ( đã có code rồi và đã kết nối với git repo rồi)
+1. [add vô commit]
+git add -A
